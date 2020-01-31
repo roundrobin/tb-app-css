@@ -1,0 +1,353 @@
+/*------------------------------------*    CTA
+\*------------------------------------*/
+
+.cta {
+    background: #00b9ff;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    user-select: none;
+}
+
+.cta.cta--special {
+    background: #2CC331;
+    
+    
+}
+
+.cta.cta--outline {
+    background: initial;
+    border: 1px solid #00b9ff;
+}
+
+.cta.cta--outline:hover {
+    box-shadow: 0px 0px 4px 2px rgba(0, 185, 255, 0.1);
+}
+
+.cta.cta--outline:active {
+    transform: translateY(2px);
+}
+
+/*------------------------------------*    CTA Pseudo
+\*------------------------------------*/
+
+.cta:active {
+    transform: translateY(2px);
+}
+.cta:hover {
+    background: #0d8ebf;
+    color: white;
+}
+.cta:focus {
+    outline: none;
+}
+
+/*------------------------------------*    CTA Loading
+\*------------------------------------*/
+
+.cta.cta--loading {
+    background: grey;
+    color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+/*------------------------------------*    CTA Secondary
+\*------------------------------------*/
+
+.cta.cta--secondary {
+    background: transparent;
+    border: 1px solid #00b9ff;
+    color: #00b9ff;
+}
+
+/*------------------------------------*    CTA Outline
+\*------------------------------------*/
+
+.cta.cta--outline {
+    border: 1px solid #00b9ff;
+    color: #00b9ff;
+    background: transparent;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    height: 60px;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.cta.cta--outline:hover {
+    color: #00b9ff;
+}
+.cta.cta--inline {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+
+.cta--inline-small i, .mar-bot-10 .cta.cta-comp i{
+    margin-right: 5px;
+}
+
+
+.mar-bot-10 .cta.cta-comp{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    width: 100%;
+    background: #00b9ff;
+    color: white;    
+    text-align: left;
+    padding: 0px 15px;
+}
+
+.cta--inline-small:hover{
+    color: black;
+    padding: 0px 15px;    
+    background: transparent;
+    text-align: left;
+    height: 18px;
+    line-height: 18px;
+}
+
+.cta--inline-small  {
+    color: #1a202c;
+    padding: 0px 15px;    
+    background: transparent;
+    text-align: left;
+    height: 18px;
+    line-height: 18px;
+
+    /* display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    width: 100%;
+    background: #00b9ff;
+    color: white;    
+    text-align: left;
+    padding: 0px 15px; */
+}
+
+
+
+.cta.cta--inline.cta--remove {
+    background: red;
+    margin-left: 10px;
+}
+
+.cta.cta--link:hover {
+    color: #00b9ff;
+}
+.cta.cta--link {
+    display: inline-block;
+    background: transparent;
+    height: initial;
+    line-height: initial;
+    width: initial;
+    padding: 0 24px;
+    color: #00b9ff;
+}
+.cta.cta--secondary {
+    background: transparent;
+    border: 1px solid #00b9ff;
+    color: #00b9ff;
+}
+.cta.cta--secondary:hover {
+    background: #00b9ff;
+    border: 1px solid #00b9ff;
+    color: white;
+}
+.cta.cta--no-changes {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.cta.cta--no-click {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.cta.cta--no-click:active {
+    transform: translateY(0px);
+}
+.cta--create__sub {
+    font-size: 11px;
+}
+.cta.cta--small {
+    display: inline-block;
+    width: initial;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+}
+.cta.cta--cancel {
+    background: transparent;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.5);
+}
+.cta.cta--cancel:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+.cta.cta--create {
+    text-align: center;
+    line-height: 20px;
+    padding-top: 8px;
+}
+.cta-ghost {
+    background: none;
+    text-align: center;
+    height: auto;
+    border: 1px solid #d6e1e4;
+    color: #8c9ca2;
+    font-size: 12px;
+    height: 46px;
+    line-height: 46px;
+    margin-top: -5px;
+}
+.cta-ghost:hover {
+    color: #00b9ff;
+    border: 1px solid #00b9ff;
+}
+.cta--pay {
+    text-align: center;
+}
+.u-left {
+    float: left;
+}
+.u-right {
+    float: right;
+}
+
+/*------------------------------------*
+Buttons
+\*------------------------------------*/
+
+.transition {
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.button {
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    color: #8d9fab;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.button:hover {
+    color: #00b9ff;
+}
+.button span {
+    font-size: 6px;
+    vertical-align: middle;
+    margin-left: 3px;
+    color: #bbb;
+    transition: all .25s ease-in-out;
+}
+.button:hover span {
+    color: #00b9ff;
+}
+.button--ghost {
+    border: 1px solid #e0e6ea;
+    font-size: 13px;
+    color: #8d9fab;
+    margin-right: 10px;
+}
+
+.button--ghost:hover {
+    border: 1px solid #00b9ff;
+}
+
+
+.button--strong {
+    border: 1px solid #00b9ff;
+    font-size: 13px;
+    background: #00b9ff;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.button--strong.button--twitter {
+    
+}
+
+.button--strong.button--googledisplay {
+    background: rgb(0, 150, 136);
+    color: white;
+}
+
+.button--strong.button--youtube {
+    background: #ff0000;
+    color: white;
+}
+
+.button--strong.button--linkedin {
+    background: #006097;
+    color: white;
+}
+
+
+
+
+.button.button--send{
+    margin-left: 10px;
+    background: yellow;
+    color: black;
+}
+
+.button.button--send{
+    margin-left: 10px;
+    background: coral;
+    color: white;
+}
+
+.button.button--approve{
+    margin-left: 10px;
+    background: #8BC34A;
+    color: white;
+}
+
+.button.button--approve-staging{
+    margin-left: 10px;
+    background: skyblue;
+    color: white;
+}
+
+.button--strong:active {
+    outline: none;
+}
+
+.button--strong:hover {
+    border: 1px solid #00b9ff;
+    background: #00b9ff;
+    outline: none;
+    color: white;
+}
+
+.button--float {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 12px;
+}
+.button--destructive,
+.button--destructive:hover {
+    color: #F44336;
+}

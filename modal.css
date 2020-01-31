@@ -1,0 +1,146 @@
+/*----------------------------------------------------------------------------*/
+ /* PLUGIN STYLES */
+/*----------------------------------------------------------------------------*/
+.ReactModal__Overlay.ReactModal__Overlay--after-open
+{
+    z-index: 1000000000;
+
+    box-shadow: 0 0 0 1px rgba(0,0,0,.07), 0 2px 15px rgba(84,96,103,.25);
+    overflow: scroll;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open
+{
+    background: rgba(82,95,127,.25) !important;
+}
+
+
+.ReactModal__Overlay p
+{
+    font-weight: 300;
+    line-height: 1.4em;
+
+    color: #6b7c93;
+}
+
+.ReactModal__Overlay h2
+{
+    font-size: 22px;
+    font-weight: 500;
+
+    margin: 0;
+    margin-top: 10px;
+
+    color: #32325d;
+}
+
+/*----------------------------------------------------------------------------*/
+ /* CUSTOM STYLES */
+/*----------------------------------------------------------------------------*/
+.modal__section
+{
+    padding: 15px 20px;
+}
+
+.modal__p{
+    font-size: 14px;
+}
+
+.modal__btn-row
+{
+    padding: 15px 10px;
+
+    text-align: right;
+}
+
+
+.modal__role-item label
+{
+    display: inline-block;
+
+    width: 200px;
+    padding: 0 5px;
+    padding-left: 20px;
+
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.modal__role-item span
+{
+    display: inline-block;
+
+    width: calc(100% - 250px);
+
+    vertical-align: middle;
+}
+.modal__btn-cancel
+{
+    margin-right: 20px;
+    padding: 7px 10px;
+
+    user-select: none;
+
+    color: #525f7f;
+    border: none;
+    border: 1px solid rgb(255, 255, 255, 1);
+    border-radius: 4px;
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 0 .5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent;
+    font-size: 13px;
+    cursor: pointer;
+}
+.modal__btn-add
+{
+    padding: 7px 10px;
+
+    user-select: none;
+
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: 0;
+    background: #38527C;
+    box-shadow: 0 0 0 .5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+
+.modal__btn-add:active
+{
+   transform: translateY(2px);
+   box-shadow: none
+}
+
+.modal__btn-add.modal__btn-add--special{
+    position: relative;
+    top: -20px;
+}
+
+
+.modal__role-item
+{
+    font-size: 14px;
+    font-weight: 300;
+
+    padding: 15px 15px;
+
+    cursor: pointer;
+    user-select: none;
+
+    background: #f7f9fa;
+}
+
+.modal__role-item:nth-child(even)
+{
+    background: white;
+}
+
+.modal__role-item input
+{
+    padding: 0 5px;
+
+    vertical-align: middle;
+}

@@ -1,0 +1,32 @@
+.popup footer {
+    position: absolute;
+    border: 0;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 129px;
+}
+footer {
+    clear: both;
+    color: #99a1a4;
+    position: relative;
+    margin: 50px 0 60px 0;
+    font-size: 13px;
+    line-height: 2.6em;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 25px;
+}
+footer ul li a {
+    color: #99a1a4;
+}
+footer ul li a:hover {
+    color: #00b9ff;
+}

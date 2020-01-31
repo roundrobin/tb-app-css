@@ -1,0 +1,230 @@
+
+    .loading-bar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 10px;
+        width: 300px;
+        background: #00b9ff;
+        border-radius: 30px;
+        transform: translate(-50%, -50%)scale(1);
+    }
+
+
+    /*------------------------------------*    LOADING-WRAP
+    \*------------------------------------*/
+        .loading-wrap{
+            position: relative;
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            min-height: calc(100vh - 112px);
+        }
+    /*------------------------------------*    LOADING
+    \*------------------------------------*/
+
+        .loading, .loading-success{
+           opacity: 1;
+           position: absolute;
+           top: 0px;
+           transition: opacity 0.3s;
+           width: 500px;
+           text-align: center;
+
+        }
+
+        .loading.loading--finsished, .loading-success.loading--finsished{
+            opacity: 0;
+        }
+
+        .loading__main-label{
+            margin-bottom: 15px;
+        }
+
+        .loading__sub-label{
+            margin-bottom: 15px;
+            color: #00b9ff;
+        }
+
+        .loading__progress-wrap{
+            max-width: 500px;
+            height: 30px;
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 30px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .loading__progress{
+            transition: width 1s linear;
+            height:100%;
+            border-radius: 30px;
+            background: #00b9ff;
+            width: 0%;
+        }
+        /*------------------------------------*    LOADING-SUCCESS
+        \*------------------------------------*/
+        .loading-success__explainer{
+            margin-bottom: 20px;
+            max-width: 500px;
+        }
+
+        /*------------------------------------*    LOADING-QUESTIONS
+        \*------------------------------------*/
+
+        .loading-questions{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80%;
+            height: 80%;
+            max-width: 800px;
+            max-height: 400px;
+            opacity: 1;
+            transform: translate(-50%, -50%)scale(1);
+            transition: all 0.3s;
+            z-index: 10000;
+            box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+
+        }
+        .loading-questions.loading-questions--closed{
+            pointer-events: none;
+            transform: translate(-50%, -50%)scale(0);
+        }
+
+        .loading-questions__btn-next{
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+        }
+
+        .loading-questions__inner{
+            background: white;
+            padding: 30px;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .loading-questions__slide{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            right: 30px;
+        }
+
+
+        /*------------------------------------*    OVERWRITES
+        \*------------------------------------*/
+        .cta.cta--inline{
+            width: auto;
+            padding: 0 20px;
+            min-width: 0;
+            display: inline-block;
+            margin: 0;
+            max-width: initial;
+        }
+
+        .range{
+            width: 100%;
+        }
+
+
+
+
+
+@-webkit-keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.progress-bar {
+  border-radius: 60px;
+  overflow: hidden;
+  width: 100%;
+}
+.progress-bar span {
+  display: block;
+}
+
+.bar {
+  background: rgba(0, 0, 0, 0.075);
+}
+
+.progress {
+  -webkit-animation: loader 1s ease infinite;
+          animation: loader 1s ease infinite;
+  background: #75b800;
+  color: #fff;
+  padding: 3px;
+  width: 0;
+}
+
+.progress-bar {
+  left: 50%;
+  max-width: 200px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}

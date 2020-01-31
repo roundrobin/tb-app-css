@@ -1,0 +1,243 @@
+/*------------------------------------*    Borderbox
+\*------------------------------------*/
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+@import url('https://rsms.me/inter/inter.css');
+@import url('//db.onlinewebfonts.com/c/8acd0727045aa60380e3fcb9e3fe9dce?family=Tahoma');
+
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@font-face {font-family: "Tahoma";
+    src: url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/8acd0727045aa60380e3fcb9e3fe9dce.svg#Tahoma") format("svg"); /* iOS 4.1- */
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+body {
+    background: #f2f5f7;
+    font-size: 14px;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+/*------------------------------------*    SVG
+\*------------------------------------*/
+
+
+/*----------------------------------------------------------------------------*/
+
+
+/*NOTIFICATIONS*/
+
+
+/*----------------------------------------------------------------------------*/
+
+.notifications-wrapper {
+    position: fixed;
+    top: 0px;
+    z-index: 10000000000000;
+}
+.menu {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1000000;
+    border-right: 4px solid #e2e2e2;
+    text-align: right;
+}
+.menu__item.menu__item-active {
+    color: #00b9ff;
+    font-weight: 500;
+}
+.menu__item {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*HEADLINES*/
+
+
+/*----------------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+    margin: 17px 0px;
+    margin-top: 43px;
+}
+
+/*------------------------------------*   Other HTML Elements
+\*------------------------------------*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(191, 191, 191, 0.3);
+    margin: 1em 0;
+    padding: 0;
+    width: 50%;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+/*------------------------------------*    Links
+\*------------------------------------*/
+
+a.link {
+    cursor: pointer;
+    color: #00b9ff;
+    text-decoration: underline;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+a:hover {
+    color: #444;
+}
+a:focus {
+    outline: 0;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*Selection*/
+
+
+/*----------------------------------------------------------------------------*/
+
+::-moz-selection {
+    color: white;
+    background: #00b9ff;
+}
+::selection {
+    color: white;
+    background: #00b9ff;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*REST*/
+
+
+/*----------------------------------------------------------------------------*/
+
+.wrapper {
+    position: relative;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section__wrapper {
+    background: #f2f7fa;
+    color: #586368;
+    text-align: center;
+    padding: 120px 0 0 0;
+    min-height: calc(100vh - 122px);
+}
+.section__wrapper.section__wrapper--small {
+    background: #fff;
+    color: #586368;
+    text-align: center;
+    padding: 0px 0;
+    min-height: 100vh;
+}
+.section__wrapper.generator {
+    background: transparent;
+    padding: 50px 0 0 0;
+}
+.sidepane__btn-back {
+    cursor: pointer;
+}
+.payment {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.list {
+    line-height: 1.6em;
+}
+.breadcrumb {
+    position: absolute;
+    top: 83px;
+    left: 30px;
+    color: #9ca5d4;
+}
+.breadcrumb__title {
+    display: inline-block;
+    max-width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+}
+.breadcrumb a {
+    color: #9ca5d4;
+    text-decoration: underline;
+}
+.no-print {}
+@media print {
+    @page {
+        size: auto;
+        /* auto is the initial value */
+        margin: 0;
+        /* this affects the margin in the printer settings */
+    }
+    .no-print {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}

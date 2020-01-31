@@ -1,0 +1,109 @@
+/*------------------------------------*    INPUT
+\*------------------------------------*/
+
+input.input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 60px;
+    padding: 0 15px;
+    border: 1px solid #e0e6ea;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+}
+
+input.input::-ms-clear {
+    display: none;
+}
+
+input.input.input--deactivate{
+    opacity: 0.2;
+}
+
+input.input.input--small {
+    height: 40px;
+    max-width: 400px;
+    display: inline-block;
+    padding: 0 15px;
+}
+input.input.input--block {
+    display: block;
+}
+input.input:placeholder {
+    color: #757575;
+}
+.input.error {
+    border: 1px solid red;
+}
+input.input:focus {
+    box-shadow: 0 0 10px rgba(3, 169, 244, 0.2);
+    border: 1px solid #00b9ff;
+}
+input.input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+input:focus {
+    outline: 0;
+    border: 1px solid #04A4CC;
+}
+.input__marker {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: -15px;
+    top: 23px;
+}
+.input__example {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    position: absolute;
+    right: 15px;
+    top: 23px;
+}
+.input__list {
+    margin-top: 0;
+    width: 100%;
+}
+.input__list-item {
+    background: #dee3ee;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+    margin-top: 0;
+    padding-left: 10px; 
+    border-radius: 3px;
+}
+.input__list-close-btn {
+    float: right;
+    padding: 5px;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+
+.targeting_right_panel .input__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.targeting_right_panel .input__list-item {
+    background: #F7FAFC;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 11px;
+    text-align: left;
+    color: #00b9ff;
+    margin-top: 0;
+    flex: 1 0 21%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+}

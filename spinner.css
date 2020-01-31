@@ -1,0 +1,33 @@
+/*------------------------------------*    Spinner
+\*------------------------------------*/
+
+.spin-wrap {
+    position: relative;
+    left: -20px;
+    top: -5px;
+    display: inline-block;
+}
+.spinner.spinner--hidden {
+    opacity: 0;
+}
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-top-color: #30ca62;
+    animation: spinner .6s linear infinite;
+}

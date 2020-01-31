@@ -1,0 +1,25 @@
+.page__title {
+    font-size: 30px;
+    color: rgb(55, 81, 126);
+    font-weight: 600;
+    padding: 70px 0;
+    margin-bottom: 0;
+}
+.page__wrapper {
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05), 0px 5px 23px rgba(0, 0, 0, 0);
+    padding: 60px;
+    text-align: left;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.page__wrapper {
+    line-height: 25px;
+}
+.page__wrapper h2 {
+    font-size: 17px;
+    margin-top: 45px;
+}
+.page__wrapper h2:first-child {
+    margin-top: 0;
+}

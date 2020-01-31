@@ -1,0 +1,665 @@
+.applicants__metrics-budget__nr{
+
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    color: #8d9fab;
+    top: 25px;
+    right: 25px;
+    
+
+}
+
+.ats__cta{
+    background: #02b9ff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 168px;
+}
+.ats__cta.ats__cta--rejection{
+    background: #FF5733;
+    color: white;
+}
+
+.text-primary{
+    color: rgba(0,0,0, 0.7);
+}
+
+
+.ats-view__close img{
+    width: 30px;
+    opacity: 0.5;
+}
+
+.ats-view__close:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.ats-view__close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    /* padding: 20px; */
+    border-radius: 25px;
+    background: rgba(0,0,0,0.1);
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.applicants__box-wrap-2{
+    /* display: flex; */
+    padding: 0px 20px;
+}
+
+.applicants__box-wrap{
+    display: flex;
+    padding: 20px;
+}
+
+.applicants__box:not(:first-child) {
+    margin-left: 20px;
+}
+
+.applicants__box-headline{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.applicants__metrics-budget__nr{
+
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    color: #8d9fab;
+    top: 25px;
+    right: 25px;
+    
+
+}
+
+.applicants__box{
+    width: 100%;
+    border: 1px solid #e0e6ea;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+    position: relative;
+}
+
+.applicants__applicants-list-overview{
+    color: blue;
+    padding: 10px;
+    border-bottom: 1px solid #e1ebf3;
+    cursor: pointer;
+    font-weight: 600;
+    position: sticky;
+    top: 57px;
+    z-index: 100000;
+    background: white;
+}
+
+.applicants__applicants-list-overview:hover{
+    background: #f9fcfd;
+}
+
+
+.applicants__applicants-list{
+    padding: 0;
+    margin:0;
+    list-style-type: none;   
+}
+
+.applicants__applicants-list-default{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+.text-muted{
+    color: rgba(0,0,0,0.6);
+}
+
+.ats-view{
+    position: fixed;
+    right: 0px;
+    width: 80%;
+    top: 60px;
+    bottom: 0px;
+    background: white;
+    box-shadow: 0px 0px 4px 5px rgba(0,0,0,0.2);
+    z-index: 1000000;
+    padding: 0px;
+    bottom: 0px;
+}
+
+.ats-view__sidepanel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    bottom: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.stafff__sidebar.stafff__sidebar--cart{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    right: 0px;
+    background: #fafcfd;
+    bottom: 0px;
+}
+
+.applicants__box-wrap-2 h2{
+  margin-top: 10px;
+}
+
+
+
+
+.tab-content{
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.applicants__search{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    padding: 0px 10px;
+    border:none!important;
+    margin-bottom:0;
+}
+
+.applicants__search:focus {
+    border:none!important;
+}
+
+.applicants__header{
+    background: #2B2E3B;
+    color: white;
+    height: 120px;
+    line-height: 120px;
+    position: relative;
+    position: fixed;
+    width: 100%;
+}
+
+.applicants__back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    line-height: 0px;
+    color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.applicants__back:hover{
+    color: rgba(255,255,255,1);
+}
+
+.prev-label{
+    color: #323246;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    width: 170px;
+}
+
+.applicants__tab-pane.active{
+    background: #FAFCFD;
+}
+
+.applicants__tab-pane{
+  display: inline-block;
+  vertical-align: top;
+  overflow: scroll;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: scroll;
+  width: 300px;
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  bottom: 0px;
+}
+
+
+.applicants__viewer-status-filter{
+    float: right;
+    z-index: 100000000;
+    position: relative;
+    top: -40px;
+    right: 10px;
+}
+.applicants__viewer{
+    vertical-align: top;
+    background:#f9fcfd;
+    width:100%;
+    text-align:center;
+    padding: 0px;
+    height: calc(100vh - 60px);
+}
+
+.applicant-list__label.applicant-list__label--crossed{
+    text-decoration: line-through;
+    color: rgba(0,0,0,0.4);
+}
+
+.applicant-list__circle{
+    color: #76b3ff;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+}
+
+.applicant-list__list-item--active .applicant-list__circle{
+    color: white;
+}
+
+.applicant-list__list-item{
+    height: 57px;
+    /* line-height: 57px; */
+    padding: 0px 10px;
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+    position:relative;
+    border-bottom:1px solid #e1ebf3;
+    cursor:pointer;
+}
+
+.applicant__search {
+    box-shadow:0 1px 5px #e8f2f5;
+    padding:0!important;
+    position: sticky;
+    top: 0px;
+    background: white;
+    z-index: 100;
+}
+
+.applicant-list__label{
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.applicant-list__message{
+    position: relative;
+    top: -5px;
+    color: #717171;
+    font-size: 13px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.applicant-list__message i{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+.applicant-list__date{
+    position: relative;
+    top: -5px;
+    color: #0000004a;
+}
+
+.applicant-list__status{
+    display: inline-block;
+    margin-top: 3px;
+    color: rgba(0,0,0,0.6);
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+
+.applicant-list__status.applicant-list__status--KONTAKTIERT{
+    background: #673ab7;
+    color: #ffffff;
+}
+
+.applicant-list__status.applicant-list__status--EINGESTELLT{
+    background: #D6EDDE;
+    color: #53C878;
+}
+
+.applicant-list__status.applicant-list__status--BEWORBEN{
+    background: #D9E7F5;
+    color: #65A6EC;
+}
+
+.applicant-list__status.applicant-list__status--INTERVIEW{
+    background: #F6EBD2;
+    color: #FAB743;
+}
+
+.applicant-list__status.applicant-list__status--ZURVORSTELLUNG{
+    background: #F6EBD2;
+    color: #FAB743;
+}
+
+.applicant-list__status.applicant-list__status--ABSAGE, .applicant-list__status.applicant-list__status--ABGESAGT{
+    background: #F3DBE2;
+    color: #EC6083;
+}
+
+
+
+.applicant-list__list-item:hover {
+    background:#f9fcfd;
+}
+
+.applicant-list__list-item:hover .applicant-list__label {
+    color:#045ded;
+}
+
+.applicant-list__label  {
+    font-weight: 500;
+    color: #323246;
+}
+
+.applicant-list__list-item.applicant-list__list-item--active{
+    background: #76b3ff;
+}
+
+.preview-header h2{
+    display: inline-block;
+    width: 100%;
+    padding-right: 92px;
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+
+
+.applicants__title{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.preview-block {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    color: #787878;
+    padding-top: 0px;
+    min-height: 45px;
+    padding: 10px;
+
+}
+.preview-block .preview-header, .preview-block .preview-attachment {
+    position: relative;
+    padding: 20px 25px 18px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.preview-block .preview-content {
+    padding: 20px 25px 5px;
+    font-size: 15px;
+}
+.preview-block p {
+    margin-bottom: 16px;
+}
+
+
+time {
+    color: #999999;
+    float: right;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 50px;
+    font-weight: 100;
+}
+.timeline-preview {
+    font-family: "Source Sans Pro";
+
+}
+
+.preview-timeline {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.preview-timeline .actor{
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.preview-timeline .title{
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.preview-block .preview-header h2, .preview-block .preview-attachment h2 {
+    display: inline-block;
+    width: 100%;
+    padding-right: 92px;
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.button.btn-light {
+    background-color: transparent;
+    border: 1px solid #D8D8D8;
+    color: #999;
+}
+
+
+.preview-block .preview-header .button, .preview-block .preview-attachment .button {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    padding: 1px 4px;
+    border-color: #e8e8e8;
+    font-size: 12px;
+}
+
+
+.applicants__applicants-list{
+    padding: 0;
+    margin:0;
+    list-style-type: none;   
+}
+
+.applicants__applicants-list-default{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+.ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+div.judgeboard div.applicants__viewer div.application article.contact span, div.judgeboard .middle div.application article.contact span, div.columns div.applicants__viewer div.application article.contact span, div.columns .middle div.application article.contact span {
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 170px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+
+.applicant-taskbar{
+    z-index: 10000;
+}
+
+.applicant-taskbar .applicant-status {
+    margin: 9px;
+    min-height: 45px;
+    line-height: 45px;
+    background: #f7f7f7;
+}
+nav.applicant-status {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.applicant-taskbar .dropdown-toggle::after{
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+
+.applicant-taskbar .applicant-status .dropdown-toggle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.inbox {
+    margin: -40px -50px;
+    border-right:1px solid #E1EBF3;
+    height: calc(100vh - 115px);
+    overflow-y: scroll;
+}
+
+
+div.judgeboard .inbox ul li.selected, div.judgeboard .left-sidebar ul li.selected, div.columns .inbox ul li.selected, div.columns .left-sidebar ul li.selected {
+    background-color: #007a87;
+    border-bottom: 1px solid #007a87;
+    color: #fff;
+    -webkit-box-shadow: 1px 0 0 0 #007a87;
+    box-shadow: 1px 0 0 0 #007a87;
+}
+
+.preview-block .preview-header .button, .preview-block .preview-attachment .button {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    padding: 1px 4px;
+    border-color: #e8e8e8;
+    font-size: 12px;
+}
+
+.button.btn-light {
+    background-color: transparent;
+    border: 1px solid #D8D8D8;
+    color: #999;
+}
+
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+
+.dropdown{
+    cursor: pointer;
+
+    background: #d6d6d6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 150px;
+    display: block;
+}
+
+.dropdown>.dropdown-menu {
+    -webkit-perspective: 600;
+    -moz-perspective: 600;
+    perspective: 600;
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-transition: all 0.18s cubic-bezier(0.55, 0.025, 0.455, 0.98);
+    -o-transition: all 0.18s cubic-bezier(0.55, 0.025, 0.455, 0.98);
+    transition: all 0.18s cubic-bezier(0.55, 0.025, 0.455, 0.98);
+}
+
+.open>.dropdown-menu {
+    display: block;
+    
+}
+
+.dropdown-menu>li:hover, .dropdown-menu>li:focus {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+}
+
+nav.applicant-status .dropdown-menu li:hover {
+    color: #333;
+    background-color: #4372cc;
+}
+
+.dropdown-menu>li {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+nav.applicant-status .dropdown-menu li {
+    color: #787878;
+    cursor: pointer;
+    padding: 6px 20px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.applicant__stage {
+    list-style-type:none;
+    margin:40px auto;
+    padding:0;
+    width:100%;
+    max-width:640px;
+    flex: 1;
+
+}
+
